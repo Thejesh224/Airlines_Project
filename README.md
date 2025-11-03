@@ -1,93 +1,88 @@
-# Airlines_Project
+# ✈️ Airline Flights Data Analysis
 
+## 🧩 Overview
 
-
-# ✈️ **Airline Flights Data Analysis**
-
-## 🧩 **Overview**
-
-This project focuses on analyzing airline flight data to understand how different factors like **flight duration**, **class type**, and **number of stops** affect **ticket prices**.
-It uses **Python** for data cleaning and visualization, and **SQL** (via pandasql) for deeper insights from the data.
+This project focuses on analyzing airline flight data to understand how different factors — such as flight duration, travel class, number of stops, and booking days — influence ticket prices.
+Using **Python** for data cleaning, visualization, and **SQL queries (via pandasql)**, this project extracts meaningful insights about flight trends and pricing patterns.
 
 ---
 
-## 🎯 **Objectives**
+## 🎯 Project Objectives
 
-* 🧹 Clean and prepare the dataset for analysis
-* 📊 Explore the data and find useful patterns
-* 🖼️ Create clear visualizations for better understanding
-* 💾 Use SQL queries to answer real-world flight-related questions
+* Clean and prepare the dataset for analysis
+* Explore and visualize patterns in ticket pricing
+* Compare airlines, routes, and flight classes
+* Use SQL queries for business-style data insights
 
 ---
 
-## 🧠 **Tools and Technologies**
+## ⚙️ Tools & Technologies Used
 
 * 🐍 **Python**
-* 📦 **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
-* 🧮 **pandasql** (for SQL queries inside Python)
+* **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
+* **pandasql** (for running SQL queries in Python)
 * 💻 **Google Colab / Jupyter Notebook**
 
 ---
 
-## 📈 **Data Analysis and Visuals**
+## 📊 Data Analysis & Visualization
 
-Here are some of the key visual analyses performed:
+Key analyses and charts created:
 
-* 💰 Price distribution across airlines
-* 🪑 Economy vs Business class price comparison
-* 🏙️ Busiest source and destination cities
-* ⏰ Days left vs ticket price trend
-* 🛑 Stops vs ticket price comparison
-* ⏳ Duration vs ticket price trend
-
----
-
-## 🧮 **SQL Queries Performed**
-
-Some of the SQL-based insights include:
-
-* 🧾 Average ticket price for each airline
-* 💸 Top 5 most expensive flight routes
-* 🏆 Cheapest business class airline
-* 🔁 Routes with more than 50 flights
-* ⚖️ Comparison between economy and business class prices
-* 🛫 Most busy routes and cities
+1. Price distribution across different airlines
+2. Comparison between economy and business class fares 💺
+3. Busiest source and destination cities 🏙️
+4. Days left before departure vs. ticket price trend 📅
+5. Stops vs. ticket price comparison
+6. Duration impact on ticket pricing ⏱️
 
 ---
 
-## 💡 **Key Findings**
+## 🧮 SQL Query Insights
 
-* ✈️ Metro routes like **Delhi–Mumbai** are the most expensive
-* 📅 Prices increase sharply when booking close to departure
-* 💼 Business class fares are 6–7× higher than economy
-* 🚫 Direct flights are generally cheaper than multi-stop ones
+Some SQL-based analyses performed:
 
----
-
-## 📂 **Dataset**
-
-The dataset used is **`airlines_flights_data.csv`**, containing details such as:
-✈️ Airline name | 🏙️ Source & Destination city | 💺 Class | ⏱️ Duration | 🔁 Stops | 📆 Days left | 💰 Price
+* Average ticket price for each airline
+* Top 5 most expensive routes
+* Cheapest airline for business class
+* Routes with more than 50 flights
+* Price difference between economy and business class
+* Most frequent source and destination cities
+* Busiest flight route
 
 ---
 
-## ⚙️ **How to Run the Project**
+## 💡 Key Insights
 
-1. Open the project in **Google Colab** or **Jupyter Notebook**
+* Metro-to-metro routes like **Delhi–Mumbai** are the most expensive ✈️
+* Ticket prices rise sharply as the departure date gets closer
+* Business class fares are 6–7 times higher than economy
+* Direct flights are generally cheaper than those with multiple stops
+
+---
+
+## 🧾 Dataset
+
+**Filename:** `airlines_flights_data.csv`
+**Contains:** Airline name, source city, destination city, class, duration, stops, days left, and price details.
+
+---
+
+## 🚀 How to Run the Project
+
+1. Open the file in **Google Colab** or **Jupyter Notebook**
 2. Install the required libraries:
 
    ```bash
    pip install pandas numpy matplotlib seaborn pandasql
    ```
 3. Load the dataset in your environment
-4. Run all the cells step by step to view results and charts
+4. Run the code blocks step by step to view the outputs and charts
 
 ---
 
-## 👨‍💻 **Author**
+## 👨‍💻 Author
 
 **P. Thejesh**
-📊 Data Analytics Enthusiast | 🐍 Python & SQL Learner
-
-
+📊 Data Analytics Enthusiast | Python & SQL Learner
 
